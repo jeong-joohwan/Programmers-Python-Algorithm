@@ -1,15 +1,3 @@
-def solution(progresses, speeds):
-    answer = []
-    while progresses:
-        result=0
-        for i in range(len(progresses)):
-            progresses[i]+=speeds[i]
-            
-        while progresses and progresses[0]>=100:
-            result+=1
-            progresses.pop(0)
-            speeds.pop(0)
-        if result>0:
-            answer.append(result)
-        
-    return answer
+version https://git-lfs.github.com/spec/v1
+oid sha256:b7c9079c66d3bfc833d56f20773b91759d50358d2d15eaf9f81339fa1c907f7c
+size 402

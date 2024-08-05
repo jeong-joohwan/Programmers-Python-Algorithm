@@ -1,21 +1,3 @@
-def solution(s, n):
-    lower = "abcdefghijklmnopqrstuvwxyz"
-    upper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-    answer = ''
-    for i in s:
-        if i in lower:
-            a=lower.find(i)+n
-            if a>=26:
-                a-=26
-            answer+=lower[a]
-        elif i in upper:
-            a=upper.find(i)+n
-            if a>=26:
-                a-=26
-            answer+=upper[a]
-        else:
-            answer+=" "
-        
-            
-            
-    return answer
+version https://git-lfs.github.com/spec/v1
+oid sha256:c123537c525f834376fb781faaf9f5370c8b21cdbebd2fc0bf4b0f393477ea4f
+size 498

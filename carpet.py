@@ -1,13 +1,3 @@
-def solution(brown, yellow):
-    answer = []
-    result=brown+yellow
-    s=0
-    g=result//s
-    
-    while(g>=s):
-        if (g-2)*(s-2)==yellow:
-            answer=[g,s]
-            break
-        g-=1
-        s=result//g                                                                                                                                              
-    return answer
+version https://git-lfs.github.com/spec/v1
+oid sha256:e75821bc2ca36893def396300e137fa35cf297edf96833782939d0ae59fc73cb
+size 394

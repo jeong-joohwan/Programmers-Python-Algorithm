@@ -1,24 +1,3 @@
-def solution(n, m):
-    answer = []
-    a=0
-    b=n*m
-    while(1):
-        if n<m:
-            if m%n==0:
-                answer.append(n)
-                break
-            else:
-                m=m-n
-                
-        elif m<n:
-            if n%m==0:
-                answer.append(m)
-                break
-            else:
-                n=n-m
-                
-        else:
-            answer.append(n)
-    a=answer[0]
-    answer.append(b/a)
-    return answer
+version https://git-lfs.github.com/spec/v1
+oid sha256:b12447f9550703c6ce6cc3fb1daea99a817ec38816e38267306c5b2abb974596
+size 494

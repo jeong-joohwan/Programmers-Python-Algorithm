@@ -1,14 +1,3 @@
-def solution(numbers):
-    answer = []
-    numbers.sort()
-    a=0
-    for i in range(len(numbers)-1):
-        for j in range(len(numbers)):
-            if i<j:
-                a=numbers[i]+numbers[j]
-                answer.append(a)
-                a=0
-    answer=set(answer)
-    answer=list(answer)
-    answer.sort()
-    return answer
+version https://git-lfs.github.com/spec/v1
+oid sha256:90ba23213f8bb6fc4fa6b62d151da2228d182cee436f95f6e85ffd5bf70a5ad1
+size 348

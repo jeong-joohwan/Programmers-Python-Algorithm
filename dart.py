@@ -1,25 +1,3 @@
-def solution(dartResult):
-    answer = []
-    n=''
-    score=0
-    for i in dartResult:
-        if i.isdigit():
-            n+=i
-        elif i=='S':
-            answer.append(int(n)**1)
-            n=''
-        elif i=='D':
-            answer.append(int(n)**2)
-            n=''
-        elif i=='T':
-            answer.append(int(n)**3)
-            n=''
-        elif i=='*':
-            if len(answer)>1:
-                answer[-2]*=2
-            answer[-1]*=2    
-        elif i=='#':
-            answer[-1]*=(-1)
-    for x in range(0,len(answer)):
-        score+=answer[x]
-    return score
+version https://git-lfs.github.com/spec/v1
+oid sha256:4c79ff5dd20746e422c05d24c52bb3f919e7307749699473ae42f1fe85c357f1
+size 615

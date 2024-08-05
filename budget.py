@@ -1,10 +1,3 @@
-def solution(d, budget):
-    d.sort()
-    sum=0
-    for i in range(len(d)):
-        sum+=d[i]
-        if sum>budget:
-            return i
-        elif sum==budget:
-            return i+1
-    return i+1
+version https://git-lfs.github.com/spec/v1
+oid sha256:bb716ee319de19c1b8dc8ba5242d055be321dfb5945d8d8783ed00a6047b5260
+size 210

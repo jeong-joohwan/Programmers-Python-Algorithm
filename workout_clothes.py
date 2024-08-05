@@ -1,19 +1,3 @@
-def solution(n, lost, reserve):
-    answer = n-len(lost)
-    
-    for i in lost:
-        if i in reserve:
-            answer+=1
-            reserve.remove(i)
-            continue
-        for j in reserve:
-            if j==i-1:
-                answer=answer+1
-                reserve.remove(j)
-                break
-            elif j==i+1:
-                
-                answer=answer+1
-                reserve.remove(j) 
-              
-    return answer
+version https://git-lfs.github.com/spec/v1
+oid sha256:cbe346707ad571111f8329d6c80c648d253e3cca6bff0c507bb0035c31793e6b
+size 475

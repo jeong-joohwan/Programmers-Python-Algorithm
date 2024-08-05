@@ -1,16 +1,3 @@
-def solution(board, moves):
-    answer = 0
-    result=[]
-    for i in moves:
-        for j in range(len(board)):
-            if board[j][i-1]==0:
-                pass
-            else:
-                result.append(board[j][i-1])
-                board[j][i-1]=0
-                break
-        if len(result)>=2 and result[-1]==result[-2]:
-            result.pop(-1)
-            result.pop(-1)
-            answer+=2
-    return answer
+version https://git-lfs.github.com/spec/v1
+oid sha256:648cda6741e752469ef7bfcf4427e800f192b9f5a52724dcdcd93e80f5f43cdb
+size 446

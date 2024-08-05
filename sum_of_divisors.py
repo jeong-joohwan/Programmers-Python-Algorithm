@@ -1,6 +1,3 @@
-def solution(n):
-    answer=0
-    for i in range(1,n+1):
-        if n%i==0:
-            answer+=i
-    return answer
+version https://git-lfs.github.com/spec/v1
+oid sha256:270538350fef6de22952a4adc040e1df2c466afd44722cfec06f11ce1a3ed17c
+size 120

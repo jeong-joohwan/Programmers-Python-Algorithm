@@ -1,10 +1,3 @@
-def solution(nums):
-    answer = 0
-    result=[]
-    for i in nums:
-        if len(nums)/2 != answer :
-            if i not in result:
-                result.append(i)
-                answer+=1
-                
-    return answer
+version https://git-lfs.github.com/spec/v1
+oid sha256:188f8db5d86b913e1e37753c84c9b438cdd86467b8b350b44f2221ee172d9504
+size 237

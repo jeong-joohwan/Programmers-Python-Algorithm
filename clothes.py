@@ -1,12 +1,3 @@
-def solution(clothes):
-    answer = 1
-    result={}
-    for i in range(len(clothes)):
-        if clothes[i][1] not in result:
-            result[clothes[i][1]]=1
-        else:
-            result[clothes[i][1]]+=1
-    for j in result.values():
-        answer=answer*(j+1)
-        
-    return answer-1
+version https://git-lfs.github.com/spec/v1
+oid sha256:be5c65e0fef753df67c446a6e79f58da910f3d0071af2c246c9804a27b82267a
+size 310

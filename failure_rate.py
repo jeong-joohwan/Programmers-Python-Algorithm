@@ -1,11 +1,3 @@
-def solution(N, stages):
-    answer = {}
-    total_len=len(stages)
-    for i in range(1,N+1):
-        if total_len!=0:
-            answer[i]=stages.count(i)/total_len
-            total_len-=stages.count(i)
-        else:
-            answer[i]=0
-    answer= sorted(answer, key=lambda x : answer[x], reverse=True)      
-    return answer
+version https://git-lfs.github.com/spec/v1
+oid sha256:66e25c04bd6b1873cd3f5329cc205f5725642e46ca016a4ae7d7462e62eac51f
+size 344
